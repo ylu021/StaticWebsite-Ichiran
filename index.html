@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ichiran</title>
+    <link rel="stylesheet" href="css/long-scrolly.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="main-menu">
+
+        <ul>
+            <li class="brand"><a href="#"><img src="http://www.ichiran.co.jp/img/ichiran.gif" class="img-responsive"></a></li>
+            <li><a href="#first">Home</a></li>
+            <li><a href="#second">Menu</a></li>
+            <li><a href="#third">About Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Top Section -->
+    <section id="first">
+        <div class="container">
+           
+                <img src="http://pixel.nymag.com/imgs/daily/grub/2016/10/11/magazine/13-ichiran-3.w710.h473.2x.jpg" class="img-z">
+            
+            <h1>What's Ichiran? </h1>
+            <div class="content">
+
+                <p>Ichiran (一蘭 Ichiran) is a Japanese ramen chain from Fukuoka.Found in 1993, it had further expanded in Japan and established branches in Hong Kong. In 2010 Ichiran USA has opened its Production Factory on 386 Johnson Ave Brooklyn, New York. Plans are to open shop in Summer of 2016. </p>
+
+            </div><!-- .content -->
+            <button type="button">Learn More</button>
+
+       </div><!-- .container -->
+
+    </section>
+
+    <!-- Second Section -->
+    <section id="second">
+        <div class="container">
+
+            <h1>Second Section</h1>
+
+            <div class="content">
+
+                
+
+            </div><!-- .content -->
+
+       </div><!-- .container -->
+
+    </section>
+
+    <!-- Third Section -->
+    <section id="third">
+        <div class="container">
+
+            <h1>Third Section</h1>
+
+            <div class="content">
+
+                
+
+            </div><!-- .content -->
+
+       </div><!-- .container -->
+
+    </section>
+
+<!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script>
+// From:    Smooth Scrolling by CHRIS COYIER, updated JANUARY 31, 2016
+//          https://css-tricks.com/snippets/jquery/smooth-scrolling
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 250);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</body>
+
+</html>
