@@ -19,7 +19,11 @@ p { margin-top: 0; }
 .img-z{
 	display: block;
     max-width: 100%;
+}
 
+#first {
+    padding-top: 100px;
+    background: url(http://pixel.nymag.com/imgs/daily/grub/2016/10/11/magazine/13-ichiran-3.w710.h473.2x.jpg);
 }
 
 /*	****************************************
@@ -31,9 +35,9 @@ p { margin-top: 0; }
 	max-width: 960px; 
 }
 
-.hero {
-	background-image:url("http://pixel.nymag.com/imgs/daily/grub/2016/10/11/magazine/13-ichiran-3.w710.h473.2x.jpg");
-	background-size:cover;
+.hero-image-bg {
+	/*background-image:url("http://pixel.nymag.com/imgs/daily/grub/2016/10/11/magazine/13-ichiran-3.w710.h473.2x.jpg");*/
+	/*background-size:cover;*/
 	
 }
 
