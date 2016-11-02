@@ -38,6 +38,7 @@ p { margin-top: 0; }
 }
 
 .hero-image-bg {
+	padding-top: 25%;
 	/*background-image:url("http://pixel.nymag.com/imgs/daily/grub/2016/10/11/magazine/13-ichiran-3.w710.h473.2x.jpg");*/
 	/*background-size:cover;*/
 	
