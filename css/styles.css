@@ -7,7 +7,10 @@ body{
 	font-size: 100%;
 }
 
-p { margin-top: 0; }
+p { 
+	margin-top: 0; 
+	line-height: 1.75;
+}
 
 article {
 	flex: 0 0 70%;
