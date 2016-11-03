@@ -9,6 +9,23 @@ body{
 
 p { margin-top: 0; }
 
+article {
+	flex: 0 0 70%;
+}
+
+aside {
+	flex: 0 0 30%;
+}
+
+article, aside {
+	padding: 1em;
+	text-align: left;
+}
+
+aside img {
+	width: 100%;
+}
+
 .right {
 	float: right;
 	margin-left: 15px;
@@ -82,7 +99,7 @@ p { margin-top: 0; }
 	display: flex;
 	display: -webkit-flex;
 	flex-flow: row;
-	justify-content: flex-start;
+	justify-content: space-between;
 }	
 
 /*nav*/
