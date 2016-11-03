@@ -59,18 +59,13 @@ article img, aside img {
 	padding: 5px;
 }
 
-.img-z{
-
-	display: block;
-    max-width: 100%;
-}
-
 #first {
     height: 100%;
     width: 100%;
     background: linear-gradient(to top, rgba(38,38,38,0.75), rgba(38,38,38,0.75)), url(http://pixel.nymag.com/imgs/daily/grub/2016/10/11/magazine/13-ichiran-3.w710.h473.2x.jpg) no-repeat;
     background-size: cover; 
 }
+
 
 .ghost-button{
   display: inline-block;
@@ -83,7 +78,6 @@ article img, aside img {
   outline: none;
   text-decoration: none;
 }
-
 .ghost-button:hover,
 .ghost-button:active {
   background-color: #fff;
