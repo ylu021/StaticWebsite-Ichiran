@@ -80,6 +80,7 @@ article img, aside img {
   background-color: #fff;
   color: #000;
 }
+
 /*section3*/
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -88,11 +89,7 @@ article img, aside img {
     border-radius: 5px;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.S3-P{
+.colophon {
 	 float: center;
 	 width: 200px;
  	 height:200px;
