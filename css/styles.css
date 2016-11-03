@@ -28,6 +28,11 @@ article, aside {
 	text-align: left;
 }
 
+article h2, aside h2 {
+	font-size: 1.17rem;
+	font-style: italic;
+}
+
 article img, aside img {
 	width: 100%;
 }
