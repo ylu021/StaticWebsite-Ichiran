@@ -5,6 +5,10 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	font-size: 100%;
+	background-image:url("https://www.ichiran.co.jp/english/img/logo_top.gif");
+	background-repeat:no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
 }
 
 p { margin-top: 0; }
@@ -53,6 +57,7 @@ article img, aside img {
 	padding: 5px;
 }
 .img-z{
+
 	display: block;
     max-width: 100%;
 }
@@ -61,8 +66,10 @@ article img, aside img {
     padding-top: 100px;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to top, rgba(38,38,38,0.5), rgba(38,38,38,0.5)), url(http://pixel.nymag.com/imgs/daily/grub/2016/10/11/magazine/13-ichiran-3.w710.h473.2x.jpg) no-repeat;
-    background-size: cover;
+    background: linear-gradient(to top, rgba(38,38,38,0.5), rgba(38,38,38,0.5)), url(http://pixel.nymag.com/imgs/daily/grub/2016/10/11/magazine/13-ichiran-3.w710.h473.2x.jpg);
+}
+.button-z{
+	border-style: none;
 }
 
 .ghost-button{
@@ -90,6 +97,7 @@ article img, aside img {
     margin: 1em;
     background: white;
     color: black;
+
 }
 
 .colophon img{
@@ -101,14 +109,19 @@ article img, aside img {
 
 #mainbox{
   display: flex;
-  justify-content: center;
+	justify-content: center;
   flex-wrap: wrap;
+
 }
 
 #headerContent {
 	text-align: left;
 	overflow: auto;
 	padding-top: 40vh;
+
+}
+#second{
+	background: rgba(255,255,255,0.958);
 }
 /*	****************************************
 	Modules (reusable classes)
