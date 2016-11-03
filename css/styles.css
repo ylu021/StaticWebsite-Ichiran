@@ -17,6 +17,10 @@ p {
 	letter-spacing: 0.5px;
 }
 
+h1{
+	font-size:2.5rem;
+}
+
 article {
 	flex: 0 0 70%;
 }
@@ -38,37 +42,6 @@ article img, aside img {
 	width: 100%;
 }
 
-h1{
-	font-size:2.5rem;
-}
-
-.article-container {
-	display: flex;
-	display: -webkit-flex;
-	flex-flow: row;
-	justify-content: flex-start;
-}
-
-.article-content {
-	flex: 0 0 60%;
-}
-
-.box {
-  flex: 0 0 20%;
-  width: 200px;
-  margin: 1.5em;
-}
-
-.right {
-	float: right;
-	margin-left: 15px;
-}
-
-.frame {
-	border: 1px solid #666;
-	padding: 5px;
-}
-
 #first {
     height: 100%;
     width: 100%;
@@ -77,51 +50,7 @@ h1{
     font-size: 1.4rem;
 }
 
-
-.ghost-button{
-  display: inline-block;
-  width: 200px;
-  padding: 8px;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 5px;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-}
-.ghost-button:hover,
-.ghost-button:active {
-  background-color: #fff;
-  color: #000;
-}
-
-/*section3*/
-.card {
-    width: 30%;
-    box-shadow: 0 2px rgba(0,0,0,0.2);
-    margin: 1em;
-    background: white;
-    color: black;
-
-}
-
-.colophon img{
-	 width: 200px;
- 	 height:200px;
-}
-
-#third {
-	background: #b81c22;
-}
-
-#headerContent {
-	text-align: left;
-	overflow: auto;
-	padding-top: 33vh;
-
-}
-
-#second{
+#second {
 	background: rgba(255,255,255,0.958);
 }
 
@@ -129,20 +58,9 @@ h1{
 	color: black;
 }
 
-/*	****************************************
-	Modules (reusable classes)
-	**************************************** */
-.container {
-	margin: 0 auto;
-	width: 95%;
-	max-width: 960px; 
+#third {
+	background: #b81c22;
 }
-
-
-.content{
-	text-align: left;
-	overflow: auto;
-}	
 
 #content-1 {
 	padding-top: 33vh;
@@ -165,18 +83,51 @@ h1{
   text-align: center;
 }
 
+#learn-more {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  float: right;
+  margin-left: 15px;
+}
+
+#learn-more:hover,
+#learn-more:active {
+  background-color: #fff;
+  color: #000;
+}
+
+#brand {
+	flex: 0 0 70%;
+}
+
+#brand a {
+	line-height: 1;
+}
+
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px; 
+}
+
+.content{
+	text-align: left;
+	overflow: auto;
+}	
 
 /*nav*/
 .main-menu {
 	background: #b81c22!important;
-}
-
-.brand {
-	flex: 0 0 70%;
-}
-
-.brand a {
-	line-height: 1;
 }
 
 .main-menu ul {
@@ -186,4 +137,37 @@ h1{
 
 .main-menu a {
 	color: white;
+}
+
+/*section2*/
+.article-container {
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row;
+	justify-content: flex-start;
+}
+
+.article-content {
+	flex: 0 0 60%;
+}
+
+.box {
+  flex: 0 0 20%;
+  width: 200px;
+  margin: 1.5em;
+}
+
+/*section3*/
+.card {
+    width: 30%;
+    box-shadow: 0 2px rgba(0,0,0,0.2);
+    margin: 1em;
+    background: white;
+    color: black;
+
+}
+
+.colophon img{
+	 width: 200px;
+ 	 height:200px;
 }
