@@ -70,6 +70,9 @@ p { margin-top: 0; }
 	overflow: auto;
 	padding-top: 25%;
 }
+.content-2{
+	color: black;
+	}	
 
 .content2 {
 	flex: 0 0 30%;
