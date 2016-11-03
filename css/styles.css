@@ -103,6 +103,12 @@ article img, aside img {
   display: flex;
 	flex-wrap: wrap;
 }
+
+#headerContent {
+	text-align: left;
+	overflow: auto;
+	padding-top: 35%;
+}
 /*	****************************************
 	Modules (reusable classes)
 	**************************************** */
@@ -114,12 +120,6 @@ article img, aside img {
 
 .header {
 	font-size: 1.4rem;
-}
-
-.content {
-	text-align: left;
-	overflow: auto;
-	padding-top: 35%;
 }
 
 .button {
