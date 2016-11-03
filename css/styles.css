@@ -107,6 +107,10 @@ article img, aside img {
      border-radius: 5px 5px 0 0;
 }
 
+#third {
+	background: #b81c22;
+}
+
 #mainbox{
   display: flex;
 	justify-content: center;
@@ -122,6 +126,10 @@ article img, aside img {
 }
 #second{
 	background: rgba(255,255,255,0.958);
+}
+
+#second h1 {
+	color: black;
 }
 /*	****************************************
 	Modules (reusable classes)
@@ -170,6 +178,7 @@ article img, aside img {
 
 .main-menu ul {
 	align-items: center!important;
+	height: 10vh;
 }
 
 .main-menu a {
