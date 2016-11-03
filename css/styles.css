@@ -107,7 +107,7 @@ article img, aside img {
 #headerContent {
 	text-align: left;
 	overflow: auto;
-	padding-top: 35%;
+	padding-top: 10rem;
 }
 /*	****************************************
 	Modules (reusable classes)
