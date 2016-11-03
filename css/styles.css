@@ -83,10 +83,12 @@ article img, aside img {
 
 /*section3*/
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 40%;
-    border-radius: 5px;
+    width: 30%;
+    /*border: 1px solid black;*/
+    box-shadow: 0 2px rgba(0,0,0,0.2);
+    margin: 1em;
+    background: white;
+    color: black;
 }
 
 .colophon img{
@@ -97,11 +99,9 @@ article img, aside img {
 }
 
 #mainbox{
-  font-family: calibri;
-  box-sizing: border-box;
-  justify-content: center;
   display: flex;
-	flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #headerContent {
