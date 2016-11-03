@@ -91,24 +91,19 @@ article img, aside img {
 }
 
 .header {
-	display: flex;
-	display: -webkit-flex;
-	flex-flow: row;
-	justify-content: flex-start;
 	font-size: 1.4rem;
 }
 
 .content {
-	flex: 0 0 70%;
 	text-align: left;
 	overflow: auto;
-	padding-top: 25%;
+	padding-top: 35%;
 }
 
 .button {
-	flex: 0 0 30%;
-	vertical-align: middle;
-	padding-top: 45%;
+	 flex: 0 0 30%; 
+	 vertical-align: middle; 
+	 padding-top: 45%; 
 }
 
 .content-2{
