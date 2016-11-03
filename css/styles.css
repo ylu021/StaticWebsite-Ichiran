@@ -14,6 +14,7 @@ body{
 p { 
 	margin-top: 0;
 	line-height:1.75; 
+	letter-spacing: 0.5px;
 }
 
 article {
@@ -35,6 +36,10 @@ article h2, aside h2 {
 
 article img, aside img {
 	width: 100%;
+}
+
+h1{
+	font-size:2.5rem;
 }
 
 .article-container {
@@ -69,6 +74,7 @@ article img, aside img {
     width: 100%;
     background: linear-gradient(to top, rgba(38,38,38,0.75), rgba(38,38,38,0.75)), url(http://pixel.nymag.com/imgs/daily/grub/2016/10/11/magazine/13-ichiran-3.w710.h473.2x.jpg) no-repeat;
     background-size: cover; 
+    font-size: 1.4rem;
 }
 
 
@@ -112,14 +118,14 @@ article img, aside img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top:15vh;
+  padding-top:12vh;
 
 }
 
 #headerContent {
 	text-align: left;
 	overflow: auto;
-	padding-top: 35vh;
+	padding-top: 33vh;
 
 }
 #second{
@@ -139,9 +145,6 @@ article img, aside img {
 	max-width: 960px; 
 }
 
-.header {
-	font-size: 1.4rem;
-}
 
 .content-2{
 	display: flex;
