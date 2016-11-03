@@ -5,6 +5,10 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	font-size: 100%;
+	background-image:url("https://www.ichiran.co.jp/english/img/logo_top.gif");
+	background-repeat:no-repeat;
+	background-position: center; 
+	background-attachment: fixed;
 }
 
 p { 
@@ -111,8 +115,9 @@ article img, aside img {
 
 #mainbox{
   display: flex;
-	justify-content: center;
+  justify-content: center;
   flex-wrap: wrap;
+  padding-top:15vh;
 
 }
 
