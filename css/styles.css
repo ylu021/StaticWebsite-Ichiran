@@ -114,14 +114,6 @@ h1{
 	background: #b81c22;
 }
 
-#mainbox{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top:12vh;
-
-}
-
 #headerContent {
 	text-align: left;
 	overflow: auto;
@@ -150,15 +142,27 @@ h1{
 .content{
 	text-align: left;
 	overflow: auto;
-	padding-top: 33vh;
 }	
 
-.content-2{
+#content-1 {
+	padding-top: 33vh;
+}
+
+#content-2 {
 	display: flex;
 	display: -webkit-flex;
 	flex-flow: row;
 	justify-content: space-between;
 	color: black;
+	padding-bottom: 10vh;
+}
+
+#content-3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top:12vh;
+  text-align: center;
 }
 
 
