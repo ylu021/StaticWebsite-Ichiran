@@ -79,6 +79,10 @@ p { margin-top: 0; }
 
 .content-2{
 	color: black;
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row;
+	justify-content: flex-start;
 }	
 
 /*nav*/
