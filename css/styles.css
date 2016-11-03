@@ -3,12 +3,12 @@
 	**************************************** */
 body{
 	font-family: 'Open Sans', sans-serif;
-	color: white;
 	font-size: 100%;
 	background-image:url("https://www.ichiran.co.jp/english/img/logo_top.gif");
 	background-repeat:no-repeat;
 	background-position: center; 
 	background-attachment: fixed;
+	color: white;
 }
 
 p { 
@@ -128,6 +128,7 @@ h1{
 	padding-top: 33vh;
 
 }
+
 #second{
 	background: rgba(255,255,255,0.958);
 }
@@ -146,14 +147,19 @@ h1{
 }
 
 
+.content{
+	text-align: left;
+	overflow: auto;
+	padding-top: 33vh;
+}	
+
 .content-2{
 	display: flex;
 	display: -webkit-flex;
 	flex-flow: row;
 	justify-content: space-between;
 	color: black;
-}	
-
+}
 
 
 /*nav*/
