@@ -18,7 +18,10 @@ p {
 }
 
 h1{
-	font-size:2.5rem;
+	font-size: 2.5rem;
+}
+h1, h2 {
+	font-family: 'Alegreya', serif;
 }
 
 article {
@@ -163,7 +166,6 @@ article img, aside img {
 
 /*section3*/
 .card {
-    width: 30%;
     box-shadow: 0 2px rgba(0,0,0,0.2);
     margin: 1em;
     background: white;
