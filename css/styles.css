@@ -58,6 +58,7 @@ article img, aside img {
 	border: 1px solid #666;
 	padding: 5px;
 }
+
 .img-z{
 
 	display: block;
@@ -71,10 +72,6 @@ article img, aside img {
     background-size: cover; 
 }
 
-.button-z{
-	border-style: none;
-}
-
 .ghost-button{
   display: inline-block;
   width: 200px;
@@ -86,6 +83,7 @@ article img, aside img {
   outline: none;
   text-decoration: none;
 }
+
 .ghost-button:hover,
 .ghost-button:active {
   background-color: #fff;
@@ -95,7 +93,6 @@ article img, aside img {
 /*section3*/
 .card {
     width: 30%;
-    /*border: 1px solid black;*/
     box-shadow: 0 2px rgba(0,0,0,0.2);
     margin: 1em;
     background: white;
@@ -106,7 +103,6 @@ article img, aside img {
 .colophon img{
 	 width: 200px;
  	 height:200px;
-     border-radius: 5px 5px 0 0;
 }
 
 #third {
